@@ -1,5 +1,5 @@
 [project]
-name = "plot-confusion-matrix"
+name = "plot_confusion_matrix"
 version = "0.0.1"
 authors = [
   { name="Eduardo M Gomes", email="me@emg.dev" },
