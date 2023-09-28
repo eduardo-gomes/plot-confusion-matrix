@@ -54,7 +54,7 @@ def plot_confusion_matrix(confusion_matrix, labels=None):
 		axs[0, idx].set_xlabel(labels[idx])
 		axs[0, idx].xaxis.set_label_position("top")
 	fig.supylabel("True label")
-	fig.supxlabel("Predicted label")
+	fig.suptitle("Predicted label")
 	return fig
 
 def generic_label(matrix: ndarray):

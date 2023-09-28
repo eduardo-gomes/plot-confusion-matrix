@@ -1,6 +1,6 @@
 [project]
 name = "plot_confusion_matrix"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Eduardo M Gomes", email="me@emg.dev" },
 ]
@@ -19,8 +19,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/eduardo-gomes/confusion_matrix"
-"Bug Tracker" = "https://github.com/eduardo-gomes/confusion_matrix/issues"
+"Homepage" = "https://github.com/eduardo-gomes/plot-confusion-matrix"
+"Repository" = "https://github.com/eduardo-gomes/plot-confusion-matrix.git"
+"Bug Tracker" = "https://github.com/eduardo-gomes/plot-confusion-matrix/issues"
 
 
 [build-system]

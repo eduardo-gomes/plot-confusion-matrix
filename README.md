@@ -2,6 +2,13 @@
 
 Plot a simple confusion matrix using matplotlib
 
+Usage:
+```py
+confusion_matrix(matrix, labels)
+```
+`labels` is optional.
+Returns a matplotlib Figure
+
 Example:
 
 ```py
@@ -18,4 +25,9 @@ pyplot.show(block=True)
 
 Output:
 
-![Result](plot.png)
+![Result](img/plot.png)
+
+```py
+confusion_matrix(matrix, ["A", "B", "C"])
+```
+![Plot with label](img/plot_label.png)
